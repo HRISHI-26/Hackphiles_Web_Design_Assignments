@@ -1,0 +1,36 @@
+.container1{
+    background-color: #ADBC9F;
+    color: whitesmoke;
+    margin: 20px;
+    padding: 5px;
+    border: #12372A dashed 8px;
+    box-sizing: content-box;
+}
+.container2{
+    background-color: #436850;
+    color: whitesmoke;
+    margin: 30px;
+    padding: 10px;
+    border: #ADBC9F solid 8px;
+    box-sizing: border-box;
+}
+.container3{
+    background-color: #12372A;
+    color: whitesmoke;
+    margin: 40px;
+    padding: 15px;
+    border: #D2E3C8 dotted 8px;
+}
+
+.container1:hover{
+    background-color: #99BC85;
+    color: whitesmoke;
+}
+.container2:hover{
+    background-color: #789461;
+    color: whitesmoke;
+}
+.container3:hover{
+    background-color: #ADBC9F;
+    color: whitesmoke;
+}
