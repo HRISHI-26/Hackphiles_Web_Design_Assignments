@@ -1,0 +1,38 @@
+/* UNIVERSAL SELECTOR */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* TYPE SELECTORS */
+h1{
+    color: darkblue;
+}
+
+p{
+    color: cadetblue;
+}
+
+ul{
+    color: cornflowerblue;
+}
+
+input{
+    color: black;
+}
+
+
+/* CLASS SELECTORS */
+.upper-class{
+    background-color: lightgray;
+    width: 20%;
+    margin: 25px;
+    padding: 15px;
+}
+
+
+/* ID SELECTORS */
+#footer{
+    color: black;
+    background-color: bisque;
+}
