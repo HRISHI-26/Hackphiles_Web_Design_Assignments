@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+}
+.box1{
+    width: 30%;
+    height: 300px;
+    z-index: 1;
+    background-color: coral;
+    position: absolute;
+    text-align: end;
+}
+.box2{
+    width: 30%;
+    height: 300px;
+    z-index: 2;
+    background-color: cornflowerblue ;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    text-align: end;
+}
+.box3{
+    width: 30%;
+    height: 300px;
+    z-index: 3;
+    background-color: cornsilk;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    text-align: end;
+}
+.box4{
+    width: 30%;
+    height: 300px;
+    z-index: 4;
+    background-color: lightgrey;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    text-align: end;
+}
