@@ -1,0 +1,69 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #557C56;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+/* TRANSITION */
+button{
+    padding: 10px;
+    background-color: #C4DAD2;
+    color: darkslategrey;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+    transition: background-color,transform, 1s ease;
+}
+button:hover{
+    background-color: #6A9C89;
+    transform: scale(1.08);
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+/* ANIMATION */
+button:active{
+    animation: rotation 1s linear infinite ;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.box{
+    margin: 1em;
+    width: 30%;
+    height: 300px;
+    background-color: #C1D8C3;
+    position: relative;
+    top: 50%;
+    left: 0px;
+    animation: movealternate 5s infinite linear;
+}
+
+@keyframes movealternate {
+    0%{
+        left: 0px;
+    }
+    /* If left at 60% right side of th box will not go beyond screen  */
+    50%{
+        left: 60%; 
+    }
+    100%{
+        left: 0px;
+    }
+}
